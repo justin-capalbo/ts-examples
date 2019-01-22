@@ -1,0 +1,17 @@
+{
+  "name": "tsexamples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "lint": "yarn tslint -p .",
+    "fix": "yarn tslint --fix -p ."
+  },
+  "devDependencies": {
+    "ts-node": "^8.0.1",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.4"
+  }
+}
